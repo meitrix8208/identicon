@@ -1,6 +1,6 @@
 [package]
 name = "identicon"
-version = "0.1.0"
+version = "0.1.1"
 description = "A port of GitHub's identicon algorithm to Rust."
 repository = "https://github.com/meitrix8208/identicon"
 license = "MIT"
@@ -13,7 +13,7 @@ name = "identicon"
 name = "identicon"
 
 [dependencies]
-image = { version = "0.25.8", default-features = false, features = ["png"] }
+image = { version = "0.25.10", default-features = false, features = ["png"] }
 md-5 = "0.10.6"
-clap = { version = "4.5.51", features = ["derive"] }
-anyhow = "1.0.100"
+clap = { version = "4.5.60", features = ["derive"] }
+anyhow = "1.0.102"
